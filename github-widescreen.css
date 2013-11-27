@@ -1,0 +1,55 @@
+/* GitHub Widescreen with some custom modifications */
+.container, body.api #wrapper, body.platform-switch #content-wrapper, .container .discussion-timeline, .edit.container .main, .gist .files, .gist-item .description {
+  width: 90% !important
+}
+.repository-content, .blog-content {
+  width: 85% !important
+}
+#slider .frames .frame, #slider .frames, body.platform-switch #content-wrapper .site, .container .file-commit-form {
+  width: 100% !important
+}
+.frame[style*="margin-left: -1200px;"] {
+  visibility: hidden !important;
+  display: none !important
+}
+body.api {
+  min-width: 1440px !important
+}
+body.api #wrapper .content, .columns.blog .main {
+  width: 920px !important
+}
+body.api #wrapper .sidebar-shell {
+  position: static !important
+}
+body.platform-switch #content-wrapper, body.platform-switch #content-wrapper #bootcamp, body.platform-switch #content-wrapper .outer {
+  margin: 0 auto !important
+}
+body.platform-switch #content-wrapper #bootcamp, body.platform-switch #content-wrapper .outer {
+  width: 660px !important
+}
+.settings-content, .repo-settings-content, .container .last, .htabs .tab-content, .container .main {
+  width: 80% !important;
+  margin-left: 25px !important;
+  float: left !important
+}
+.container #graph-shots .js-gshot { margin:0 10px 10px 0 !important }
+.container .singleline input, .container .outer #gollum-editor-body, .container input.commit-message-summary, .container textarea.commit-message {
+  width: 99% !important
+}
+.container .outer #gollum-editor-body {
+   margin-left: 0 !important
+}
+.repository-lang-stats-graph {
+  opacity: 0.2 !important
+}
+.repo-settings-content .column.main {
+  width: 720px !important
+}
+.explore-page .columns.browser.right-sidebar .main {
+  margin-right: 0 !important
+}
+
+/* custom */
+.pull-request-composer .discussion-topic {
+  width: 80%;
+}
